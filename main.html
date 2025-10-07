@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Personal Profile</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #4a90e2, #357abd);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 0 auto 20px;
+            object-fit: cover;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .name {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .title {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #4a90e2;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            border-bottom: 2px solid #e1e8ed;
+            padding-bottom: 5px;
+        }
+
+        .section p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: #4a90e2;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .contact-info h3 {
+            color: #4a90e2;
+            margin-bottom: 10px;
+        }
+
+        .contact-item {
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+            }
+            
+            .header {
+                padding: 30px 15px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .name {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="image.png" alt="Profile Photo" class="profile-photo">
+            <h1 class="name">Predescu Alexandru</h1>
+            <p class="title">Software Engineer</p>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I'm a passionate software engineer at Microsoft with a love for creating beautiful and functional digital experiences. 
+                    With over 3 years of experience in the field, I specialize in front-end development and user interface design.
+                </p>
+                <p>
+                    I believe in the power of clean code, thoughtful design, and continuous learning. When I'm not coding, 
+                    you can find me exploring new technologies, reading tech blogs, or enjoying a good cup of coffee while 
+                    sketching out ideas for my next project.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>Skills & Expertise</h2>
+                <div class="skills">
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">C++</span>
+                    <span class="skill-tag">JavaScript</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Rust</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>My Journey</h2>
+                <p>
+                    My journey into software development started during my computer science studies, where I discovered my passion 
+                    for creating innovative solutions and working with cutting-edge technologies. I began my professional career at Lenovo, 
+                    where I gained valuable experience in enterprise software development and learned to work in large-scale environments.
+                </p>
+                <p>
+                    After building a strong foundation at Lenovo, I transitioned to Microsoft where I currently work as a Software Engineer. 
+                    This move has allowed me to dive deeper into cloud technologies, distributed systems, and work on products that impact 
+                    millions of users worldwide. I believe that continuous learning and adapting to new challenges are key to growth in this field.
+                </p>
+            </div>
+
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <div class="contact-item">📧 Email: <a href="mailto:predescualex81@gmail.com">predescualex81@gmail.com</a></div>
+                <div class="contact-item">💼 LinkedIn: <a href="https://linkedin.com/in/alex-predescu" target="_blank">https://www.linkedin.com/in/alex-predescu/</a></div>
+                <div class="contact-item">🐙 GitHub: <a href="https://github.com/alexandru2908" target="_blank">github.com/alexandru2908</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
